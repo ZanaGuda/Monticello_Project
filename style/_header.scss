@@ -29,7 +29,12 @@ body {
 
 
 }
-
+.main-nav__link{
+    margin-top: 28px;
+}
+.socials{
+    margin-top: 28px;
+}
 .main-nav {
     display: flex;
     align-items: center;
@@ -37,7 +42,7 @@ body {
     margin-top: 0px;
     color: $whiteColor;
  a{
-text-decoration: none;
+    text-decoration: none;
     color: $whiteColor;
  }
 

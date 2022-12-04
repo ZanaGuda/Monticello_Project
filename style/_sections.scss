@@ -11,6 +11,7 @@ section {
     font-size: 44px;
     line-height: 54px;
     color: #2C4058;
+    margin-top: 15px;
 }
 
 .mission {
@@ -18,6 +19,8 @@ section {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-around;
+    margin-top: 86px;
+    margin-bottom: 50px;
 }
 
 .line {
@@ -46,6 +49,7 @@ section {
     font-weight: 700;
     font-size: 36px;
     color: #2C4058;
+    margin-bottom: 20px;
 }
 
 .trade-center__text {
@@ -61,7 +65,7 @@ section {
     height: auto;
     position: relative;
     z-index: 1;
-    left: 216px;
+    left: 135px;
     bottom: 250px;
 }
 
@@ -111,6 +115,7 @@ section {
     font-weight: 700;
     font-size: 44px;
     color: #2C4058;
+    margin-bottom: 20px;
 }
 
 .commerce-center__text {
@@ -128,6 +133,7 @@ section {
     background-position: center;
     width: 100%;
     height: 1035px;
+    margin-top: -216px;
 }
 
 .gallery__grid-parent {
@@ -155,4 +161,133 @@ section {
 
 .gallery__fifth-pic {
     grid-area: 2 / 4 / 3 / 5;
+}
+
+// aaaa
+.location__image {
+    background: url(../assetss/img/map.png) no-repeat center;
+    width: 100%;
+    height: 660px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.location__contact {
+    width: 750px;
+    height: 400px;
+    position: absolute;
+    bottom: -18%;
+    background-color: #FFFFFF;
+}
+
+.location__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+     font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #2C4058;
+    width: 332px;
+    height: 80px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.form-info {
+    width: 85%;
+    height: 196px;
+    margin-top: 50px;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.form-info__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.informations {
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+.form-info-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.form-info-text {
+    display: flex;
+    align-items: center;
+}
+
+.form-info-text::before {
+    content: "";
+    background: url(../assets/location-icon.svg) no-repeat center;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.form-info__time {
+    height: 30px;
+}
+
+.form-info__name img {
+    width: 270px;
+    height: 2px;
+}
+
+.form-info__name h3 {
+    width: 127px;
+    height: 27px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.form-info__email {
+    height: 41px;
+    margin-top: 32px;
+}
+
+.form-info__email img {
+    width: 270px;
+    height: 2px;
+    opacity: 0.3;
+}
+
+.email-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4B5562;
+    opacity: 0.5;
+}
+
+.button--form {
+    margin-left: 50%;
+    margin-top: 23px;
+}
+
+.button--form a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+.button{
+    @include btn;
 }
