@@ -1,0 +1,22 @@
+@import "./variables";
+.container {
+    max-width: $containerWidth;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 37px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+
+    a {
+        text-decoration: none;
+    }
+}
