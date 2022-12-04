@@ -34,12 +34,12 @@ section {
 }
 
 .trade-center__information {
-    padding: 33px;
+    padding: 12px;
     margin-top: 33px;
 }
 
 .trade-center__subtitle {
-
+    margin-bottom: 3px;
     font-weight: 400;
     font-size: 18px;
     color: #2C4058;
@@ -58,6 +58,7 @@ section {
     font-size: 18px;
     line-height: 30px;
     color: #2C4058;
+    margin-bottom: 20px;
 }
 
 .first-project-pic {
@@ -106,6 +107,7 @@ section {
 }
 
 .commerce-center__subtitle {
+    margin-bottom: 3px;
     font-weight: 400;
     font-size: 22px;
     color: #2C4058;
@@ -124,6 +126,7 @@ section {
     font-size: 18px;
     line-height: 30px;
     color: #2C4058;
+    margin-bottom: 20px;
 
 }
 
@@ -290,4 +293,19 @@ section {
 }
 .button{
     @include btn;
+        
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.gallery-pics{
+    transition: 0.5s;
+}
+.gallery-pics:hover{
+    transform: scale(1.3);
+}
+.arrow{
+    margin-left: 574px;
+   
 }

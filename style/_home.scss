@@ -13,6 +13,8 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 71px;
+    position: relative;
+    top: 163px;
 }
 
 .hero__title {
@@ -27,4 +29,5 @@
     font-size: 18px;
     letter-spacing: 0.3em;
     color: $whiteColor;
+    line-height: 79px;
 }
