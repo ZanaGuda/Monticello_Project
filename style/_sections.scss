@@ -25,6 +25,8 @@ section {
 
 .line {
     padding-right: 17px;
+    position: relative;
+    top: -14px
 }
 
 .trade-center {
@@ -62,7 +64,7 @@ section {
 }
 
 .first-project-pic {
-    width: 371px;
+    width: 395px;
     height: auto;
     position: relative;
     z-index: 1;
@@ -84,7 +86,10 @@ section {
     grid-template-columns: 1fr 1fr;
     width: 100%;
 }
-
+.commerce-center__information{
+    margin-top: 33px;
+    padding: 12px;
+}
 .commerce-center {
     margin-top: -100px;
 }
@@ -102,20 +107,20 @@ section {
     height: auto;
     position: relative;
     z-index: 1;
-    left: 133px;
-    bottom: 248px;
+    left: 101px;
+    bottom: 235px;
 }
 
 .commerce-center__subtitle {
     margin-bottom: 3px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     color: #2C4058;
 }
 
 .commerce-center__title {
     font-weight: 700;
-    font-size: 44px;
+    font-size: 36px;
     color: #2C4058;
     margin-bottom: 20px;
 }
@@ -133,7 +138,7 @@ section {
 .news {
     background: url(../assetss/img/city.png), linear-gradient(237.1deg, #24CCFA 11.16%, #3C7FD4 89.18%);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     width: 100%;
     height: 1035px;
     margin-top: -216px;
@@ -177,6 +182,7 @@ section {
 }
 
 .location__contact {
+    background: url(../assetss/img/city02.png) no-repeat bottom;
     width: 750px;
     height: 400px;
     position: absolute;
@@ -308,4 +314,9 @@ section {
 .arrow{
     margin-left: 574px;
    
+}
+.pin{
+    position: absolute;
+    top: -251px;
+    left: 235px;
 }
