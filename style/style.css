@@ -194,3 +194,29 @@ width: 395px;
     width: 100%;
     height: 1035px;
 }
+.gallery__grid-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 0px;
+}
+
+.gallery__first-pic {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.gallery__second-pic {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.gallery__third-pic {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.gallery__fourth-pic {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.gallery__fifth-pic {
+    grid-area: 2 / 4 / 3 / 5;
+}
