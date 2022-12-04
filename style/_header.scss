@@ -5,9 +5,29 @@
     margin: 0 auto;
 }
 
+.container-1 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0px;
+}
+
 .logo {
     float: left;
     margin-top: 37px;
+}
+
+.main-section {
+
+    background: url(../assetss/img/bcg.png), linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+
+
 }
 
 .main-nav {
@@ -15,8 +35,10 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 0px;
+    color: $whiteColor;
+ a{
+text-decoration: none;
+    color: $whiteColor;
+ }
 
-    a {
-        text-decoration: none;
-    }
 }

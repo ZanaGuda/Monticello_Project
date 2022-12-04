@@ -1,0 +1,37 @@
+footer {
+    background: url(../assetss/img/footer-pic-1.png) no-repeat center, linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    width: 750px;
+    height: 240px;
+    margin-top: 55px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 241px;
+    height: 112px;
+    z-index: 1;
+
+}
+
+.footer-social {
+    margin-bottom: 50px;
+    
+}
+
+.footer-logo p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 38px;
+}
