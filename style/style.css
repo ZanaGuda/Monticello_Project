@@ -4,16 +4,22 @@
     margin: 0 auto;
 }
 body{
-    background: linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
-   
+    margin:0px;
 }
-
 .logo {
     float: left;
     margin-top: 37px;
 }
 
+.main-section {
 
+    background: url(../assetss/img/bcg.png), linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+
+
+}
 .main-nav {
     display: flex;
     align-items: center;
@@ -60,12 +66,7 @@ body{
     color: #FFFFFF;
 
 }
-.first-section{
-    
-    background: url(../assetss/img/bcg.png);
-   
-    
-}
+
 
 section{
     margin-top: 20px;
@@ -84,4 +85,112 @@ section{
         flex-direction: column;
         flex-wrap: wrap;
         align-content: space-around;
+}
+.line{
+    padding-right: 17px;
+    margin-bottom: -18px;
+}
+.trade-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.trade-center__information{
+    padding: 33px;
+    margin-top: 33px;
+}
+.trade-center__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    color: #2C4058;
+}
+.trade-center__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 4px;
+    color: #2C4058;
+}
+.trade-center__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2C4058;
+}
+.first-project-pic{
+    width: 371px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    left: 216px;
+    bottom: 250px;
+}
+.blue-square{
+    width: 371px; 
+    height:276px;
+    background: #55B7FF;
+    position: relative;
+    
+    left: -47px;
+}
+.commerce-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.commerce-center{
+    margin-top: -100px;
+}
+.violet-square{
+width: 386px;
+    height: 276px;
+    position: relative;
+    background: #7E5AFF;
+    left: 244px;
+}
+.second-project-pic{
+width: 395px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    left: 133px;
+    bottom: 248px;
+}
+.commerce-center__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0;
+    color: #2C4058;
+}
+.commerce-center__title{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 0;
+        color: #2C4058;
+}
+.commerce-center__text{ 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2C4058;
+
+}
+.news{
+    background: url(../assetss/img/city.png), linear-gradient(237.1deg, #24CCFA 11.16%, #3C7FD4 89.18%);
+     background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 1035px;
 }
