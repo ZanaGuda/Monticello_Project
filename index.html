@@ -45,6 +45,7 @@
         <main>
             <section class="hero">
                 <div class="container">
+                    
                     <div class="hero__text">
                         <p class="hero__title">
                             SIMPLE & MODERN
@@ -416,15 +417,32 @@
                                     </div>
                                 </div>
                                 <div class="form-info__form">
-                                    <div class="form-info__name">
+                                    <!-- <div class="form-info__name">
                                         <h3>Mollie Medina</h3>
                                         <img src="./assetss/img/line-2.svg" alt="">
                                     </div>
                                     <div class="form-info__email">
                                         <div class="email">Email</div>
                                         <img src="./assetss/img/line-2.svg" alt="">
-                                        <div class="button button-form"><a href="#" style="font-size: 16px;">SUBMIT</a></div>
-                                    </div>
+                                        
+                                    </div> -->
+                                    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                                     <div class="form-info__name">
+                                            <h3>Mollie Medina</h3>
+                                            <img src="./assetss/img/line-2.svg" alt="">
+                                        </div>
+                                        <label for="lname" style="position: relative;
+    top: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4B5562;
+    margin-top: 37px;">Email</label>
+                                        <input type="text" id="fname" name="fname" style="opacity: 0.8;">
+                                        <div class="button button-form"><a href="#" style="font-size: 16px;" onclick="validateForm()">SUBMIT</a></div>
+                
+                                    </form>
                                 </div>
                             </div>
                         </article>
@@ -480,6 +498,15 @@
     //                 }
     //             }
     //         })
-    // </script>    
+
+    //
+    function validateForm() {
+            let x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+        }
+    </script>    
 </body>
 </html>

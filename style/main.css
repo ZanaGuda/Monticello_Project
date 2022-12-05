@@ -660,6 +660,15 @@ section {
   padding: 4px;
 }
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
 footer {
   background: url(../assetss/img/footer-pic-1.png) no-repeat center, linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);
   height: 498px;
