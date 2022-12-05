@@ -552,6 +552,114 @@ section {
   left: 235px;
 }
 
+.news__text {
+  padding: 20px;
+}
+
+.news__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  color: #2C4058;
+}
+
+.news__information {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 42px;
+  color: #2C4058;
+}
+
+.news__reviewer {
+  border-radius: 30px;
+}
+
+.news__name {
+  display: flex;
+  justify-content: center;
+  margin-top: -43px;
+  margin-left: -105px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2C4058;
+}
+
+.news__date {
+  display: flex;
+  margin-top: 2px;
+  margin-left: 68px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #55B7FF;
+}
+
+.owl-prev {
+  position: relative;
+  top: -296px;
+  left: -590px;
+  color: white !important;
+}
+
+.owl-next {
+  position: relative;
+  top: -294px;
+  right: -580px;
+  color: white !important;
+}
+
+.owl-dot {
+  margin-left: 18px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  border: 1px solid white;
+  display: block;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+.owl-dot span {
+  background-color: transparent !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: white !important;
+}
+
+.owl-nav .owl-prev span {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 4px;
+}
+
+.owl-nav .owl-next span {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 4px;
+}
+
 footer {
   background: url(../assetss/img/footer-pic-1.png) no-repeat center, linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);
   height: 498px;
