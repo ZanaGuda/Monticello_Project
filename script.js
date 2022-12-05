@@ -1,4 +1,4 @@
-$(".owl-carousel").owlCarousel({
+$(".owl-carousel-1").owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
@@ -15,7 +15,7 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
-$(".owl-carousel-1").owlCarousel({
+$(".owl-carousel-2").owlCarousel({
   loop: true,
   margin: 10,
   nav: true,

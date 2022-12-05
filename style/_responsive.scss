@@ -1,0 +1,46 @@
+@import "./variables";
+@media(min-width:768px) and (max-width: 1024px) {
+    .hero__title {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0.1em;
+        color: $white;
+    }
+
+    .hero__subtitle {
+        font-size: 15px;
+    }
+
+    .mission__title {
+        font-size: 35px;
+    }
+
+    .first-project-pic {
+        width: 327px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        left: 56px;
+        bottom: 195px;
+    }
+
+    .trade-center__information {
+        padding: 12px;
+        margin-top: -8px;
+    }
+
+    .violet-square {
+        left: 28px;
+        bottom: -64px;
+    }
+
+    .second-project-pic {
+        left: -22px;
+        bottom: 160px;
+    }
+
+    .gallery .button {
+        position: relative;
+        right: 165px;
+    }
+}
